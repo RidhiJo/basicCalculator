@@ -38,7 +38,7 @@ struct CalculatorLogic {
        
         if let n = number {
             switch symbol {
-            case "+/-":
+            case "±":
                 return n * -1
             case "AC":
                 return 0
